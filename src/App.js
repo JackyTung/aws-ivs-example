@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AmazonIVSWorkaround from "./AmazonIVSWorkaround";
+import WorkAround from './Workaround/WorkAround'
 
 function App() {
     return (
         <div className="App">
-            <AmazonIVSWorkaround/>
+            <WorkAround/>
         </div>
     );
 }
